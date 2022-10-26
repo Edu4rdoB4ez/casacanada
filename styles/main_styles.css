@@ -357,7 +357,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(14,9,35,0.88); /*rgba(14,9,35,0.88);*/
+	background: rgba(255,255,255,0.88); /*rgba(14,9,35,0.88);*/
 	z-index: 101;
 	border-bottom: solid 2px #ff9000; /*#ff9000;*/
 }
@@ -397,7 +397,7 @@ section
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #323232;
 }
 .main_nav ul li a:hover,
 .main_nav ul li.active a

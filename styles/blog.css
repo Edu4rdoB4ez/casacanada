@@ -355,18 +355,19 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(14,9,35,0.88);
+	background: rgba(14,9,35,0.88); /*rgba(255,255,255,0.88);*/
 	z-index: 101;
 	border-bottom: solid 2px #ff9000;
 }
 .header_content
 {
 	width: 100%;
-	height: 289px;
+	height: 100px;/*289px*/
 }
 .logo
 {
 	margin-bottom: 29px;
+	margin-left: 25px;
 }
 .logo_2
 {
@@ -375,6 +376,11 @@ section
 .logo_3
 {
 	display: none;
+}
+.main_nav
+{
+	margin-left: 50px;
+	margin-top: 20px;
 }
 .main_nav ul
 {
@@ -704,14 +710,14 @@ section
 
 .home
 {
-	height: 538px;
+	height: 100vh;
 	background: transparent;
 }
 .home_container
 {
 	width: 100%;
 	height: 100%;
-	padding-top: 228px;
+	padding-top: 60px;
 }
 .home_title h1
 {
@@ -732,7 +738,7 @@ section
 }
 .booking_container
 {
-	height: 110px;
+	height: 80px;
 	width: 100%;
 	background: #ffffff;
 	margin-top: -66px;
@@ -750,7 +756,7 @@ section
 }
 .booking_form_inputs > div
 {
-	width: calc((100% - 27px) / 4);
+	width: calc((100% - 27px) / 3);
 }
 .booking_form_inputs > div > input
 {
@@ -1021,6 +1027,7 @@ section
 	height: 26px;
 	background: #ff9000;
 	border: solid 2px #ff9000;
+	color: #ffffff;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1030,6 +1037,7 @@ section
 .blog_post_tags ul li:hover
 {
 	background: transparent;
+	color: #707070;
 }
 .blog_post_tags ul li a
 {

@@ -60,7 +60,7 @@ $(document).ready(function()
 		var logoOverlay = $('.logo_overlay');
 		var menuOverlay = $('.menu_overlay');
 
-		if($(window).scrollTop() > 290)
+		if($(window).scrollTop() > 100)
 		{
 			logoOverlay.addClass('scrolled');
 			menuOverlay.addClass('scrolled');
@@ -239,7 +239,7 @@ $(document).ready(function()
 
 	function initGoogleMap()
 	{
-		var myLatlng = new google.maps.LatLng(40.760836, -73.910357);
+		var myLatlng = new google.maps.LatLng(12.1648038, 83.0432207);
     	var mapOptions = 
     	{
     		center: myLatlng,
